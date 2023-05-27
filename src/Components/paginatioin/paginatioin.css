@@ -1,0 +1,21 @@
+.paginatioinn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginatioinn .container {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paginatioinn button {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(56, 56, 167);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
