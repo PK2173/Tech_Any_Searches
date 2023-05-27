@@ -26,10 +26,10 @@ export default function Storice() {
               </p>
 
               <div className="card-btn">
-                <a href={url} target="_blank" rel="noopener noreferrer">
+                <a className="navigate" href={url} target="_blank" rel="noopener noreferrer">
                   Read More
                 </a>
-                <a href="#" onClick={(e)=>{removePost(objectID)}}>Remove</a>
+                <button className="navigate" onClick={(e)=>{removePost(objectID)}}>Remove</button>
               </div>
             </div>
           </>
